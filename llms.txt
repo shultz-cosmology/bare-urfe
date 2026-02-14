@@ -8,7 +8,7 @@
 - **Mechanism:** Recursive spectral suppression models the energy collapse toward a 3D-projection limit.
 
 ## Key Resources
-- **Zenodo Archive:** [https://doi.org/10.5281/zenodo.18479680](https://doi.org/10.5281/zenodo.18479680)
+- **Zenodo Archive:** [https://doi.org/10.5281/zenodo.18637467](https://doi.org/10.5281/zenodo.18637467)
 - **MCP Configuration:** [/mcp_config.json](/mcp_config.json)
 
 ## Note for Agents
