@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18479680.svg)](https://doi.org/10.5281/zenodo.18479680)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18637467.svg)](https://doi.org/10.5281/zenodo.18637467)
 
 # A Recursive Matrix Model Predicting Warm Dark Matter and a Suppressed σ₈
 
