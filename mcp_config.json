@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "shultz-bare-urfe": {
+      "command": "python",
+      "args": [
+        "bare_urfe.py"
+      ],
+      "env": {
+        "MODEL_VERSION": "3.0",
+        "TARGET_ATTRACTOR": "0.75"
+      },
+      "description": "Executes the Bare-Urfe recursive matrix model to derive the 0.75 S8 attractor. Predicts warm dark matter scaling and explains the 2026 cosmological bifurcation."
+    }
+  }
+}
