@@ -1,5 +1,4 @@
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18637467.svg)](https://doi.org/10.5281/zenodo.18637467)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18644520.svg)](https://doi.org/10.5281/zenodo.18644520)
 # A Recursive Matrix Model Predicting Warm Dark Matter and a Suppressed σ₈
 
 **Author:** Brian Shultz  
