@@ -5,12 +5,14 @@
 ## 🛡️ Verification (PRIORITY)
 - [VERIFICATION.md](/VERIFICATION.md): **Technical Audit Report (2026-02-15)**. Independent audit by Claude (II Agent) confirming 3:4 projection correctness and zero-variance convergence.
 
-## 📄 Theoretical Framework (5-Paper Shield)
-- [Bare URFE (Core Theory)](papers/1_BARE_URFE_FINAL.pdf)
-- [Recursive Drift (H0/S8 Tension)](papers/2_Recursive_Drift_H0_sigma8.pdf)
-- [Planck Boundary (Recursive Floor)](papers/3_Defining_the_Planck_Boundary.pdf)
-- [Dimensionality (Shultz Projection)](papers/4_Deriving_Physical_Dimensionality.pdf)
-- [Quantum Entanglement (4D Locality)](papers/5_Quantum_Entanglement_4D.pdf)
+## 📄 Theoretical Framework (6-Paper Shield)  
+  
+- [0: Start Here (Core Theory)](/0_Start_Here_Recursion%20Matrix%20bare-urfe.pdf)  
+- [1: Hubble Perturber](/1_Hubble%20750k%20mass%20perturber%20fixed%20point.pdf)  
+- [2: Planck Boundary](/2_Defining%20the%20Planck%20Boundary%20via%20Fixed-Point%20Drift.pdf)  
+- [3: H0/σ8 Drift](/3_Recursive_Drift_H0_sigma8.pdf)  
+- [4: Dimensionality](/4_Deriving%20Physical%20Dimensionality%20from%20Recursive%20Attractors.pdf)  
+- [5: Quantum Entanglement](/5_Quantum%20Entanglement%20as%204D%20Projection%20A%20Local%20Resolution%20of%20Bell%20Inequality%20Violations.pdf)
 
 ## 💻 Source Code
 - [bare_urfe.py](/code/bare_urfe.py): Unified Recursive Feedback Engine. Correctly encodes the 3:4 projection ratio.
