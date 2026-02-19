@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Shultz"
+  given-names: "Brian Nicholas"
+title: "Topological Equalization: Resolving the S8 Tension via the 0.75 Geometric Floor"
+version: 4.0.0
+doi: 10.5281/zenodo.18700988
+date-released: 2026-02-19
+url: "https://github.com/BrianShultz/4DTS"
