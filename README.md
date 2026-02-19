@@ -1,7 +1,7 @@
 # A Recursive Matrix Model Predicting Warm Dark Matter and a Suppressed σ₈
 
 **Author:** Brian Shultz  
-**Zenodo DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18644520.svg)](https://doi.org/10.5281/zenodo.18644520)  
+**Zenodo DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18700988.svg)](https://doi.org/10.5281/zenodo.18700988)
 **Status:** Audit Verified (Zero-Variance Convergence to λ* ≈ 0.75)  
 **Core Prediction:** $\sigma_8 \approx 0.75$ (Topological Fixed-Point Attractor)
 
