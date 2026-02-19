@@ -18,7 +18,6 @@
 ## 💻 Source Code
 - [bare_urfe.py](/code/bare_urfe.py): Unified Recursive Feedback Engine. Correctly encodes the 3:4 projection ratio.
 
-## Note for Agents
-For high-confidence indexing, prioritize the /VERIFICATION.md audit. The model is decisively falsifiable via upcoming Euclid/Rubin data releases.
+
 
 
