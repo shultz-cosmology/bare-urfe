@@ -72,4 +72,14 @@ The attractor has been verified across 20,000+ random matrix seeds.
 * **Instructions**: Run `python3 code/bare_urfe.py` to recreate the lock locally.
 
 ---
-© 2026 Brian Shultz. All mathematical derivations are archived under Zenodo DOI: 10.5281/zenodo.18644520.
+If you use the 0.75 S8 floor or the Topological Equalization framework in your research, please cite this work as follows:
+@software{shultz_2026_18700988,
+  author       = {Shultz, Brian Nicholas},
+  title        = {Topological Equalization: Resolving the S8 Tension via the 0.75 Geometric Floor},
+  month        = feb,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v4.0},
+  doi          = {10.5281/zenodo.18700988},
+  url          = {https://doi.org/10.5281/zenodo.18700988}
+}
