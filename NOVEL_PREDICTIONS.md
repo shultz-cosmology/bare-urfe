@@ -1,28 +1,23 @@
 # NOVEL_PREDICTIONS: The Running of σ8(z)
 
-## 1. The Dimensional Decoupling Curve
-Bare-URFE predicts that the $S_8$ tension is not a static discrepancy but a measurement of **Dimensional Decay**. As the universe evolves and structure collapses, the coupling of the 4th recursive dimension (the Bulk) weakens, leading to a predictable "running" of the clustering amplitude toward a 3D holographic floor.
+## 1. The Dynamic Decay Equation
+Bare-URFE identifies the $S_8$ tension not as a systematic error, but as a **Dimensional Decoupling Curve**. As the universe evolves from the high-energy CMB state to the local era, the additional spectral weight from the 4th-dimensional bulk leaks into the vacuum background. 
 
-### The Mechanism of d_eff = 3.25 at High-z
-At the epoch of Recombination (CMB), the vacuum information is in a state of maximal symmetry. In a 4D Torus ($T^4$), the **Equipartition of Entropy** dictates that each dimension contributes an equal unit fraction to the coupling.
-* **Derivation**: $d_{eff} = 3 \text{ (Observed Space)} + (1/4) \text{ (Bulk Coupling)} = 3.25$.
-* **Primary σ8**: $\sigma_{8,CMB} = 3.25 / 4 = 0.8125$.
+The precise evolutionary track is governed by the following identity:
 
-### The Shultz Floor at Low-z
-As the universe expands and the recursive map reaches its fixed point, the 4th dimension fully decouples from the matter clustering power, leaving only the 3-manifold capacity.
-* **Derivation**: $d_{eff} = 3.0$.
-* **Final σ8**: $\sigma_{8,Local} = 3.0 / 4 = 0.75$.
+$$\sigma_8(z) = 0.75 + 0.0625 \cdot \left(\frac{\ln(1+z)}{\ln(1101)}\right)^\gamma$$
+
+* **z = 1100 (CMB Epoch)**: $\sigma_8 = 0.8125$ (The $3.25/4$ Coupling).
+* **z = 0 (Local Universe)**: $\sigma_8 = 0.7500$ (The Shultz Floor).
+* **$\gamma$**: The decay shape parameter, predicted to be constrained by 2026/2027 survey data.
 
 
 
-## 2. Predicted Evolutionary Track
-The transition from 0.8125 to 0.75 is not instantaneous. It follows a **Logarithmic Decay** corresponding to the growth of cosmic structure ($z \approx 1100 \to 0$):
-* **z > 1000**: Platform at 0.8125.
-* **z ≈ 10 to 2**: Onset of measurable decay as dimensional leakage into the vacuum background accelerates.
-* **z < 1**: Convergence to the 0.75 floor.
+## 2. The Euclid DR1 Benchmark (Oct 21, 2026)
+This model provides a binary, falsifiable test for the upcoming **Euclid Data Release 1 (DR1)**. While standard $\Lambda$CDM assumes structure growth on a fixed 3D baseline, Bare-URFE predicts a fundamental "downward tick" in the intrinsic clustering amplitude at late times.
 
-## 3. Falsifiability (The October 2026 Window)
-This prediction is explicitly binary. Data from **Euclid DR1 (October 21, 2026)** and **DESI** will provide high-precision measurements of $\sigma_8$ at intermediate redshifts ($z \approx 0.5$ to $2.0$).
+* **Success**: Late-time spectroscopic and lensing probes ($z < 1$) show a statistically significant preference for $\sigma_8 \approx 0.75$ compared to the CMB-extrapolated $\approx 0.81$.
+* **Failure**: High-precision data confirms $\sigma_8$ remains constant at the CMB-predicted levels across all measured redshifts.
 
-1. **Confirmation**: If the data shows $\sigma_8$ trending from $\approx 0.81$ toward $0.75$ at late times, the 4D topological projection is confirmed.
-2. **Falsification**: If $\sigma_8$ remains constant at $\approx 0.81$ (supporting standard $\Lambda$CDM growth) or falls below $0.75$, the Bare-URFE model is falsified.
+## 3. Physical Mechanism: Dimensional Leakage
+The 25% spectral weight lost during the transition from the 4D source to the 3D sink is redistributed into the vacuum background. This "missing" variance is the geometric origin of the **Cosmological Constant ($\Lambda$)**. Consequently, the $S_8$ tension and the Hubble tension are derived as two perspectives of the same **Topological Phase Transition**.
