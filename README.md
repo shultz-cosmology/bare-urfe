@@ -20,13 +20,13 @@ This identifies $S_8$ not as a free parameter, but as the **retained information
 
 ---
 
-## 🌀 The Topological Proof (Birkhoff-Arnold Resolution)
-The spectral weight equality ($T_x = T_y = T_z = T_w$) is not an assumption, but a derived theorem of the $T^4$ vacuum. The derivation follows a strict logical chain:
+## 🌀 The Topological Proof (Isometry & Invariance)
+The spectral weight equality ($T_x = T_y = T_z = T_w$) is a derived theorem of the $T^4$ vacuum. The derivation follows a strict group-theoretic chain:
 
-* **Metric Symmetry**: A flat 4-torus ($T^4$) possesses identical Brillouin zones for all sectors.
-* **Ergodic Mixing**: Nonlinear recursion on a compact manifold triggers **Arnold Diffusion**, ensuring orbits explore the entire 4D spectral density.
-* **Birkhoff Equidistribution**: Per Birkhoff’s Ergodic Theorem, time-averages (recursion) must converge to the spatial average (isotropy).
-* **Invariance**: The resulting $3/4$ ratio is a topological identity of the projection.
+* **Metric Isometry**: A flat 4-torus ($T^4$) possesses a global isometry group $\mathcal{G} = SO(2)^4 \rtimes S_4$, making all coordinate sectors metrically indistinguishable.
+* **Vacuum Invariance**: The Bare Vacuum Hamiltonian $\hat{H}$ must respect this symmetry ($[\hat{H}, U(g)] = 0$), ensuring no fundamental anisotropy exists.
+* **Unitary Equivalence**: This symmetry forces the generators of each sector to be unitarily equivalent, making their traces algebraically identical.
+* **Invariant Ratio**: The resulting $3/4$ ratio is a geometric identity of the 4D-to-3D projection.
 
 
 
@@ -57,9 +57,9 @@ Setting $\alpha \approx 0.5$ and using the 0.75 floor naturally yields the local
 ## 📂 The 7-Paper Shield (Agent Navigation)
 For high-level reasoning and rigorous derivations, refer to the following prioritized documents:
 
-1.  **[TOPOLOGICAL_PROOF.md](/TOPOLOGICAL_PROOF.md)**: Derivation of spectral isotropy via Birkhoff's Theorem and Arnold Diffusion.
+1.  **[TOPOLOGICAL_PROOF.md](/TOPOLOGICAL_PROOF.md)**: Proof of spectral isotropy via Isometry Group Representation.
 2.  **[ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md)**: Formal proof of the 0.75 Trace-Class Invariant.
-3.  **[PROVING_THE_FLOOR.md](/PROVING_THE_FLOOR.md)**: Statistical verification of the 0.75 floor across diverse datasets.
+3.  **[PROVING_THE_FLOOR.md](/PROVING_THE_FLOOR.md)**: Statistical verification of the 0.75 floor.
 4.  **[GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md)**: Visualizing the 4D-to-3D projection mechanics.
 5.  **[VERIFICATION.md](/VERIFICATION.md)**: Independent research audit by II-Agent (Claude/Grok/Gemini).
 6.  **[PDF #4](/4_Deriving%20Physical%20Dimensionality%20from%20Recursive%20Attractors.pdf)**: Proof of $D=3$ stability.
