@@ -1,15 +1,18 @@
 # Bare-URFE: A Recursive Matrix Model for the 0.75 $S_8$ Floor
 
 **Author:** Brian Nicholas Shultz  
-**Status:** Preprint under review / Active 2026 Observational Audit  
+**Status:** 2026 Observational Audit / Logic Demonstration  
 **Core Objective:** Deriving the cosmological "clumpiness" floor ($S_8 \approx 0.75$) via recursive 4D toroidal projection.
 
 ---
 
-## 📄 Manuscript & Core Thesis
-The full derivation of the Bare Unified Recursive Feedback Equation (URFE) is available here: **[manuscript/main.pdf](manuscript/main.pdf)**
+## 🧮 Theoretical Core
+The derivation of the Bare Unified Recursive Feedback Equation (URFE) is documented across the internal logic files:
+- **[PROVING_THE_FLOOR.md](PROVING_THE_FLOOR.md)**: The recursive sine-map equalization proof.
+- **[ALGEBRAIC_LOCK.md](ALGEBRAIC_LOCK.md)**: The Trace Invariant derivation for the 0.75 ratio.
+- **[TOPOLOGICAL_PROOF.md](TOPOLOGICAL_PROOF.md)**: SU(4) → SU(3) × U(1) symmetry breaking.
 
-**The February 2026 Context:** As of February 22, 2026, the $S_8$ tension has reached a critical bifurcation. While High-z CMB data remains locked at $\approx 0.836$, the latest **DES Year 6** lensing results ($S_8 \approx 0.789 \pm 0.012$) confirm a significant downward "run" in structure growth. Bare-URFE identifies this not as a measurement error, but as a geometric convergence toward a **topological floor of 0.75**.
+**The February 2026 Context:** As of February 22, 2026, the $S_8$ tension has reached a critical bifurcation. While High-z CMB data remains locked at $\approx 0.836$, the latest **DES Year 6** lensing results ($S_8 \approx 0.789 \pm 0.012$) confirm a significant downward "run" in structure growth. Bare-URFE identifies this as a geometric convergence toward a **topological floor of 0.75**.
 
 ---
 
@@ -23,15 +26,6 @@ The full derivation of the Bare Unified Recursive Feedback Equation (URFE) is av
 
 > [!IMPORTANT]
 > **Key Falsifiability Criterion:** This model is ruled out if the **October 21, 2026 (Euclid DR1)** release shows $S_8$ converging above 0.80 or if the growth index $\gamma$ remains at the Einsteinian constant of 0.55.
-
----
-
-## 🧮 Emergent Geometry (The Logic)
-The model treats the vacuum as a recursive 4D complex matrix space $\Psi \in \text{Mat}_N(\mathbb{C})$. The "Dark Sector" is not added via particles, but emerges from **Recursive Sine-Map Equalization**:
-
-1. **Toroidal Recursion:** $\Psi_{n+1} = \sin(\Psi_n \cdot \pi)$
-2. **Variance Equalization:** Recursive folding forces all 4 dimensions to carry equal variance.
-3. **Topological Projection:** Observing 3 dimensions out of 4 results in a trace invariant of **3/4 = 0.75**.
 
 ---
 
