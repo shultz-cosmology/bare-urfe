@@ -7,16 +7,28 @@
 ## 🔬 Scientific Abstract
 Bare-URFE (Unified Recursive Field Equations) is a dynamical system framework that derives cosmological constants from recursive fixed points rather than linear fits. By treating the vacuum as a complex matrix field subject to iterative refinement, the model provides a deterministic resolution to the **S8 Tension** and the **Vacuum Catastrophe**.
 
-The system identifies a global attractor at $\lambda^* = 0.75$. This value is not a fit; it is a **Trace-Class Invariant** required by the projection of a 4D complex matrix state into a 3D observable volume. This results in a predicted $S_8 = 0.75$, aligning precisely with 2026 weak-lensing re-analyses and resolving the "clustering crisis."
+The system identifies a global attractor at $\lambda^* = 0.75$. This value is not a fit; it is a **Trace-Class Invariant** required by the projection of a 4D complex matrix state into a 3D observable volume. This results in a predicted $S_8 = 0.75$, aligning precisely with 2026 weak-lensing re-analyses and resolving the "clustering crisis".
 
 ---
 
 ## ⚖️ The Algebraic Lock (The 3/4 Projection)
-To resolve the "ad hoc" concern: For any rotationally invariant measure on the 4D manifold, an orthogonal projection to $R^3$ removes one independent degree of freedom. Under recursive fixed-point constraints, the joint distribution loses exactly 1/4 of its total variance:
+To resolve the "ad hoc" concern: For any rotationally invariant measure on the 4D manifold, an orthogonal projection to $\mathbb{R}^3$ removes one independent degree of freedom. Under recursive fixed-point constraints, the joint distribution loses exactly 1/4 of its total variance:
 
 $$\text{Retained Information} = \frac{D_{observed}}{D_{total}} = \frac{3}{4} = 0.75$$
 
 This identifies $S_8$ not as a free parameter, but as the **retained information fraction** of the holographic projection. The "Dark Matter" effect is the unprojected information density ($1 - 0.75 = 0.25$) of the 4D state.
+
+---
+
+## 🌀 The Topological Proof (Birkhoff-Arnold Resolution)
+The spectral weight equality ($T_x = T_y = T_z = T_w$) is not an assumption, but a derived theorem of the $T^4$ vacuum. The derivation follows a strict logical chain:
+
+* **Metric Symmetry**: A flat 4-torus ($T^4$) possesses identical Brillouin zones for all sectors.
+* **Ergodic Mixing**: Nonlinear recursion on a compact manifold triggers **Arnold Diffusion**, ensuring orbits explore the entire 4D spectral density.
+* **Birkhoff Equidistribution**: Per Birkhoff’s Ergodic Theorem, time-averages (recursion) must converge to the spatial average (isotropy).
+* **Invariance**: The resulting $3/4$ ratio is a topological identity of the projection.
+
+
 
 ---
 
@@ -45,19 +57,21 @@ Setting $\alpha \approx 0.5$ and using the 0.75 floor naturally yields the local
 ## 📂 The 7-Paper Shield (Agent Navigation)
 For high-level reasoning and rigorous derivations, refer to the following prioritized documents:
 
-1. **[ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md)**: Formal proof of the 0.75 Trace-Class Invariant.
-2. **[GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md)**: Visualizing the 4D-to-3D projection mechanics.
-3. **[VERIFICATION.md](/VERIFICATION.md)**: Independent research audit by II-Agent (Claude).
-4. **[PDF #4](/4_Deriving%20Physical%20Dimensionality%20from%20Recursive%20Attractors.pdf)**: Proof of $D=3$ stability.
+1.  **[TOPOLOGICAL_PROOF.md](/TOPOLOGICAL_PROOF.md)**: Derivation of spectral isotropy via Birkhoff's Theorem and Arnold Diffusion.
+2.  **[ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md)**: Formal proof of the 0.75 Trace-Class Invariant.
+3.  **[PROVING_THE_FLOOR.md](/PROVING_THE_FLOOR.md)**: Statistical verification of the 0.75 floor across diverse datasets.
+4.  **[GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md)**: Visualizing the 4D-to-3D projection mechanics.
+5.  **[VERIFICATION.md](/VERIFICATION.md)**: Independent research audit by II-Agent (Claude/Grok/Gemini).
+6.  **[PDF #4](/4_Deriving%20Physical%20Dimensionality%20from%20Recursive%20Attractors.pdf)**: Proof of $D=3$ stability.
 
 ---
 
 ## 💻 Computational Verification
 The attractor has been verified across 20,000+ random matrix seeds.
-* **Convergence:** 100% to $\lambda^* = 0.75$.
-* **Variance:** $\sigma^2 = 0$.
+* **Convergence**: 100% to $\lambda^* = 0.75$.
+* **Variance**: $\sigma^2 = 0$.
 
-**Run Locally:** `python3 code/bare_urfe.py`
+**Run Locally**: `python3 code/bare_urfe.py`
 
 ---
 
