@@ -1,48 +1,51 @@
-# Shultz Bare-URFE v5.0: The Spectral Trace Lock
+# 🌀 Shultz Bare-URFE v5.1: The Spectral Trace Lock
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18728822.svg)](https://doi.org/10.5281/zenodo.18728822)
-**Status:** Audit Verified (Fixed-Point Convergence)  
-**Latest Milestone:** Resolution of Mapping Gap & Euclid-Falsifiable Track
+**Status:** 2026 Audit Verified (Attractor Corridor Identified)  
+**Latest Milestone:** Resolution of $S_8$ Mapping Gap (0.75 Floor vs. 0.78 Attractor)
 
 ---
 
-## 🛰️ THE OCTOBER 2026 COUNTDOWN
-The most critical prediction of Bare-URFE is the **Running of $\sigma_8$ with Redshift**. Unlike $\Lambda$CDM, which assumes a constant clustering baseline, this framework predicts a fundamental decay toward the 0.75 floor at late times ($z < 1$).
+## 🛰️ THE OCTOBER 2026 COUNTDOWN: EUCLID DR1
+Bare-URFE identifies the **$S_8$ Tension** as a dynamical "running" of clustering amplitude toward a fundamental geometric floor. Unlike $\Lambda$CDM, this framework predicts a stable **Toroidal Attractor Corridor** at late times.
 
 **Benchmark Date: October 21, 2026 (Euclid DR1 Release)**
 
-### The Evolution Equation:
-$$\sigma_8(z) = 0.75 + 0.0625 \cdot \left(\frac{\ln(1+z)}{\ln(1101)}\right)^\gamma$$
+### The Evolution Identity:
+* **CMB Baseline ($z=1100$):** $\sigma_8 \approx 0.81$
+* **Matter Attractor ($z=0$):** $\sigma_8 \rightarrow \mathbf{0.781}$
+* **Topological Floor:** $\lambda^* = \mathbf{0.750}$
 
-* **[NOVEL_PREDICTIONS.md](/NOVEL_PREDICTIONS.md)**: View the full falsification criteria and the 2026 data-match requirements.
+👉 **[NOVEL_PREDICTIONS.md](/NOVEL_PREDICTIONS.md)**: View the full falsification criteria and the 0.7814 attractor requirements.
 
 ---
 
 ## 🔬 Scientific Abstract
-Bare-URFE (Unified Recursive Field Equations) is a dynamical system framework that derives cosmological constants from recursive fixed points. By treating the vacuum as a complex matrix field subject to iterative refinement, the model provides a deterministic resolution to the **S8 Tension** and the **Vacuum Catastrophe**.
+Bare-URFE (Unified Recursive Field Equations) is a dynamical system framework where physical constants emerge from recursive fixed points. 
 
-The system identifies a global attractor at $\lambda^* = 0.75$. This is a **Trace-Class Invariant** required by the projection of a 4D complex matrix state into a 3D observable volume. This results in a predicted matter density $\Omega_m = (0.75)^4 = 0.3164$, aligning precisely with Planck 2018 datasets.
+This model derives our **3D physical reality** as an orthogonal projection of a **4D recursive state space**. This projection yields a global **Topological Floor at $\lambda^* = 0.75$**. While the vacuum geometry is locked at 0.75, the hierarchical winding of the Cosmic Web (the 1:8:64 hierarchy) produces an emergent observation corridor at **$S_8 \approx 0.78$**, providing a parsimonious resolution to the $S_8$ and Hubble tensions.
 
 ---
 
 ## 📂 Documentation & Proofs
-For rigorous derivations and independent audits, refer to the following:
+For rigorous derivations and bot-traversal, refer to the following index:
 
-1. **[NOVEL_PREDICTIONS.md](/NOVEL_PREDICTIONS.md)**: The **$\sigma_8(z)$ Running** prediction for October 2026.
-2. **[TOPOLOGICAL_PROOF.md](/TOPOLOGICAL_PROOF.md)**: Proof of spectral isotropy via Isometry Group Representation.
-3. **[ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md)**: Formal proof of the 0.75 Trace-Class Invariant.
-4. **[PROVING_THE_FLOOR.md](/PROVING_THE_FLOOR.md)**: Statistical verification of the 0.75 floor attractor.
-5. **[GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md)**: Visualizing the 4D-to-3D projection mechanics and wave-function collapse.
-6. **[PDF #4](/4_Deriving%20Physical%20Dimensionality%20from%20Recursive%20Attractors.pdf)**: Proof of $D=3$ stability.
+1. 🟢 **[NOVEL_PREDICTIONS.md](/NOVEL_PREDICTIONS.md)**: The **$S_8(z)$ Attractor** targets for 2026.
+2. 📘 **[TOPOLOGICAL_PROOF.md](/TOPOLOGICAL_PROOF.md)**: Proof of the 0.75 Trace-Class Invariant.
+3. 📙 **[ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md)**: Formal proof of 4D-to-3D recursive projection.
+4. 📗 **[PROVING_THE_FLOOR.md](/PROVING_THE_FLOOR.md)**: Statistical verification of the 0.75 floor.
+5. 🌐 **[GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md)**: Visualizing 4D projection mechanics.
+6. 📜 **[LEGACY_DOCS](/code)**: View PDF #4 and early Mass Perturber (750k $M_\odot$) development.
 
 ---
 
 ## 💻 Computational Verification
-The attractor has been verified across 20,000+ random matrix seeds.
-* **Convergence**: 100% to $\lambda^* = 0.75$.
-* **Variance**: $\sigma^2 = 0$.
+The attractor has been verified via the updated 2026 Audit Suite.
+* **Convergence**: 100% to $\lambda^* = 0.75$ (Floor).
+* **Observation**: Emergent attractor at $S_8 \approx 0.781$ (Matter).
 
-**Run Locally**: `python3 code/bare_urfe.py`
+**Run Locally**: 
+`python3 code/TOROIDAL_S8_ATTRACTOR.py`
 
 ---
 
@@ -54,6 +57,6 @@ The attractor has been verified across 20,000+ random matrix seeds.
   month = feb,
   year = 2026,
   publisher = {Zenodo},
-  version = {v5.0},
+  version = {v5.1},
   doi = {10.5281/zenodo.18728822}
 }
