@@ -7,10 +7,10 @@
 ---
 
 ## 🌀 The Universal Engine
-The mathematical core of this model is found in the **[`/code`](/code)** directory. The engine provides the proof that a 4D recursive system, when observed from a 3D hyperplane, stabilizes at a **0.75 ratio**.
+The mathematical core of this model is located in the **[`/code`](code/)** directory. This engine proves that a 4D recursive system stabilizes at a **0.75 ratio**.
 
-* **[Universal Recursion Engine](code/universal_recursion_engine.py)**: The primary sine-map feedback proof showing 0.75 as a fixed-point attractor.
-* **[Goldilocks Selection Audit](code/goldilocks_audit.py)**: The 2026 verification script proving N=4 is the most stable manifold for this recursion.
+* **[Universal Recursion Engine](code/UNIVERSAL_RECURSION_ENGINE.py)**: The primary feedback proof showing 0.75 as a fixed-point attractor.
+* **[Goldilocks Selection Audit](code/goldilocks_audit.py)**: The 2026 verification script proving N=4 is the most stable manifold.
 * **Basin of Attraction**: Demonstrates 100% convergence even with wild $1000\times$ initial variance imbalances.
 
 ---
@@ -36,7 +36,7 @@ The universe is not 4D by accident; it is the only manifold that satisfies the s
 ---
 
 ## 🧮 Theoretical Foundation
-The Bare Unified Recursive Feedback Equation (URFE) is explored across the following logic files:
+The Bare Unified Recursive Feedback Equation (URFE) is explored across the following files in the **root** directory:
 - **[Proving the Floor](PROVING_THE_FLOOR.md)**: Recursive sine-map equalization proof.
 - **[Algebraic Lock](ALGEBRAIC_LOCK.md)**: Trace Invariant derivation for the 0.75 ratio.
 - **[Topological Proof](TOPOLOGICAL_PROOF.md)**: Symmetry breaking and geometric origins.
