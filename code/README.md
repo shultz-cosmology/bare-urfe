@@ -1,52 +1,47 @@
-# Bare-URFE: Universal Recursion & The 0.75 Topological Floor
+# 🌀 Bare-URFE: Computational Command Center
+**Directory:** `/code`  
+**Purpose:** Automated Verification of the 0.75 Topological Floor
 
-**Author:** Brian Nicholas Shultz  
-**Status:** 2026 Observational Audit / Logic Demonstration  
-**Core Objective:** Identifying fundamental physical constants as fixed-point attractors of a recursive 4D toroidal manifold.
-
----
-
-## 🌀 The Universal Engine
-The mathematical core of this model is located in the **[`/code`](code/)** directory. This engine proves that a 4D recursive system stabilizes at a **0.75 ratio**.
-
-* **[Universal Recursion Engine](code/UNIVERSAL_RECURSION_ENGINE.py)**: The primary feedback proof showing 0.75 as a fixed-point attractor.
-* **[Goldilocks Selection Audit](code/goldilocks_audit.py)**: The 2026 verification script proving N=4 is the most stable manifold.
-* **Basin of Attraction**: Demonstrates 100% convergence even with wild $1000\times$ initial variance imbalances.
+This directory contains the minimalist, auditor-proof suite used to verify the Bare Unified Recursive Feedback Equation (URFE).
 
 ---
 
-## 🔬 2026 Observational Scorecard
-As of February 22, 2026, the $S_8$ tension has reached a critical bifurcation. Latest **DES Year 6** lensing results confirm a significant downward "run" toward our predicted **0.75 topological floor**.
+## 🔬 2026 Observational Scorecard (Selection Context)
+The logic here is driven by the observed decay of $S_8$ toward the 0.75 floor.
 
-| Quantity | Bare Model (Floor) | 2026 Obs. Value (DES Y6) | Standard Model ($\Lambda$CDM) | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **$S_8$ (Clumping)** | **0.75** | **0.789 ± 0.012** | 0.836 (High-z) | **Running to Floor** |
-| **Growth Index ($\gamma$)** | **< 0.50** | Under Audit | 0.55 (Fixed) | **Testable Oct 2026** |
-| **EW Scale ($v$)** | 244.7 GeV | 246.22 GeV | 246.22 GeV | Consistent |
-| **Proton Decay** | $\approx 2.1 \times 10^{34}$ yr | > 1.6 $\times 10^{34}$ yr | $\infty$ (Stable) | Testable (HK) |
+| Quantity | Bare Model (Floor) | 2026 Obs. Value (DES Y6) | Status |
+| :--- | :--- | :--- | :--- |
+| **$S_8$ (Clumping)** | **0.75** | **0.789 ± 0.012** | **Running to Floor** |
+| **Growth Index ($\gamma$)** | **< 0.50** | Under Audit | **Testable Oct 2026** |
 
 ---
 
-## ⚖️ Dimensional Selection Logic
-The universe is not 4D by accident; it is the only manifold that satisfies the stability, directional, and topological layers of the URFE audit.
+## ⚖️ Dimensional Selection Audit
+The universe is not 4D by accident. The scripts in this directory prove that $N=4$ is the unique solution satisfying the **Stability**, **Directional**, and **Topological** layers of reality.
 
-![Selection Flowchart](code/goldilocks_selection_logic.png)
-*N=5 (0.80) is currently falsified as observations (0.789) have already passed its floor.*
-
----
-
-## 🧮 Theoretical Foundation
-The Bare Unified Recursive Feedback Equation (URFE) is explored across the following files in the **root** directory:
-- **[Proving the Floor](PROVING_THE_FLOOR.md)**: Recursive sine-map equalization proof.
-- **[Algebraic Lock](ALGEBRAIC_LOCK.md)**: Trace Invariant derivation for the 0.75 ratio.
-- **[Topological Proof](TOPOLOGICAL_PROOF.md)**: Symmetry breaking and geometric origins.
-
-> [!IMPORTANT]
-> **Key Falsifiability Criterion:** This model is ruled out if the **October 21, 2026 (Euclid DR1)** release shows $S_8$ converging above 0.80 or if the growth index $\gamma$ remains at the Einsteinian constant of 0.55.
+![Selection Flowchart](goldilocks_selection_logic.png)
+> **Audit Note:** $N=5$ (0.80) is mathematically stable but physically falsified; current observations have already breached the 0.80 floor.
 
 ---
 
-## 💻 Computational Verification
-To run the selection audit locally:
+## 💻 Execution Suite
+Run these scripts to reproduce the attractor and selection results locally.
+
+* **[Universal Recursion Engine](UNIVERSAL_RECURSION_ENGINE.py)** The primary proof showing the 0.75 floor as a fixed-point attractor of a recursive 4D toroidal manifold.
+* **[Goldilocks Selection Audit](goldilocks_audit.py)** The 2026 audit script proving $N=4$ stability and rejecting $N=5$ based on observational data.
+* **[Audit Results (JSON)](goldilocks_results.json)** The raw data output from the 50-seed stability run.
+
+---
+
+## 🧮 Theoretical Anchors (Main Directory)
+These documents provide the algebraic and topological derivations found in the root folder:
+- [**Proving the Floor**](../PROVING_THE_FLOOR.md)
+- [**Algebraic Lock**](../ALGEBRAIC_LOCK.md)
+- [**Topological Proof**](../TOPOLOGICAL_PROOF.md)
+
+---
+
+## 🏁 Quick Start
 ```bash
-python3 code/goldilocks_audit.py
+# Run the N=4 selection verification
+python3 goldilocks_audit.py
