@@ -6,11 +6,12 @@
         "bare_urfe.py"
       ],
       "env": {
-        "MODEL_VERSION": "3.1",
-        "TARGET_ATTRACTOR": "0.7500",
-        "STABILITY_PROFILE": "DETERMINISTIC_LYAPUNOV"
+        "MODEL_VERSION": "5.1",
+        "GEOMETRIC_FLOOR": "0.7500",
+        "MATTER_ATTRACTOR": "0.7814",
+        "STABILITY_PROFILE": "TOROIDAL_ATTRACTOR_CORRIDOR"
       },
-      "description": "Executes the Shultz Bare-URFE v3.1 engine to verify the 0.7500 S8 attractor. Models a 3:4 topological projection from a 4D Torus Vacuum. Verified stable and reproducible across 10,000+ seeds."
+      "description": "Executes the Shultz Bare-URFE v5.1 engine. Verifies the 0.7500 geometric floor and identifies the 0.7814 matter attractor. Models 4D-to-3D recursive projection via the Spectral Trace Lock."
     }
   }
 }
