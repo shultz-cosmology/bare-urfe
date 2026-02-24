@@ -1,6 +1,6 @@
 # 🌀 Shultz Bare-URFE v5.1: The Spectral Trace Lock
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18728822.svg)](https://doi.org/10.5281/zenodo.18728822)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18758974.svg)](https://doi.org/10.5281/zenodo.18758974)
 **Status:** 2026 Audit Verified (Attractor Corridor Identified)  
 **Latest Milestone:** Resolution of $S_8$ Mapping Gap (0.75 Floor vs. 0.78 Attractor)
 
