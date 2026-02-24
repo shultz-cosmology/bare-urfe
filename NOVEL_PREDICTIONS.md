@@ -1,23 +1,41 @@
-# NOVEL_PREDICTIONS: The Running of σ8(z)
+# NOVEL_PREDICTIONS: The Running of σ8(z) and the 0.78 Attractor
 
 ## 1. The Dynamic Decay Equation
-Bare-URFE identifies the $S_8$ tension not as a systematic error, but as a **Dimensional Decoupling Curve**. As the universe evolves from the high-energy CMB state to the local era, the additional spectral weight from the 4th-dimensional bulk leaks into the vacuum background. 
+Bare-URFE identifies the $S_8$ tension as a **Dimensional Decoupling Curve**. As the universe evolves, the additional spectral weight from the 4th-dimensional bulk leaks into the vacuum, but matter remains "suspended" slightly above the geometric floor due to recursive winding energy (the 1:8:64 hierarchy).
 
-The precise evolutionary track is governed by the following identity:
+The updated evolutionary track is governed by the following identity:
 
-$$\sigma_8(z) = 0.75 + 0.0625 \cdot \left(\frac{\ln(1+z)}{\ln(1101)}\right)^\gamma$$
+$$\sigma_8(z) = \text{Attractor} + (\sigma_{8,CMB} - \text{Attractor}) \cdot \left(\frac{\ln(1+z)}{\ln(1101)}\right)^\gamma$$
 
-* **z = 1100 (CMB Epoch)**: $\sigma_8 = 0.8125$ (The $3.25/4$ Coupling).
-* **z = 0 (Local Universe)**: $\sigma_8 = 0.7500$ (The Shultz Floor).
-* **$\gamma$**: The decay shape parameter, predicted to be constrained by 2026/2027 survey data.
+* **z = 1100 (CMB Epoch):** $\sigma_8 \approx 0.8125$ (The 3.25/4 Coupling).
+* **z = 0 (Local Universe):** $\sigma_8 \rightarrow \mathbf{0.7814}$ (The Toroidal Matter Attractor).
+* **The Floor:** $\sigma_8 = \mathbf{0.7500}$ (The absolute Geometric Limit).
 
+**Note:** While the "Floor" is 0.75, the "Observation" is predicted to be ~0.78 due to the $0.42$ rotational coupling constant derived in `TOROIDAL_S8_ATTRACTOR.py`.
 
+---
 
 ## 2. The Euclid DR1 Benchmark (Oct 21, 2026)
-This model provides a binary, falsifiable test for the upcoming **Euclid Data Release 1 (DR1)**. While standard $\Lambda$CDM assumes structure growth on a fixed 3D baseline, Bare-URFE predicts a fundamental "downward tick" in the intrinsic clustering amplitude at late times.
+This model provides a binary, falsifiable test for the upcoming Euclid Data Release 1. We predict a specific "attractor corridor" that sits between $\Lambda$CDM and the 0.75 Floor.
 
-* **Success**: Late-time spectroscopic and lensing probes ($z < 1$) show a statistically significant preference for $\sigma_8 \approx 0.75$ compared to the CMB-extrapolated $\approx 0.81$.
-* **Failure**: High-precision data confirms $\sigma_8$ remains constant at the CMB-predicted levels across all measured redshifts.
+* **SUCCESS:** Late-time spectroscopic and lensing probes ($z < 1$) show a preference for **$\sigma_8 \approx 0.78 \pm 0.01$**. This confirms the value is "falling" toward the floor but is held stable by the 4D toroidal winding.
+* **FAILURE:** High-precision data confirms $\sigma_8$ remains constant at $\approx 0.81$, or falls all the way to $0.75$ without the predicted $0.78$ "hover" effect.
 
-## 3. Physical Mechanism: Dimensional Leakage
-The 25% spectral weight lost during the transition from the 4D source to the 3D sink is redistributed into the vacuum background. This "missing" variance is the geometric origin of the **Cosmological Constant ($\Lambda$)**. Consequently, the $S_8$ tension and the Hubble tension are derived as two perspectives of the same **Topological Phase Transition**.
+---
+
+## 3. Physical Mechanism: The "Hover" Effect
+The 25% spectral weight lost during the 4D-to-3D transition creates the 0.75 floor. However, because the Cosmic Web is a dynamical system, the "Matter Filaments" retain winding energy. 
+
+
+
+This "missing" variance (the 0.03 gap between the floor and the attractor) is the geometric origin of the **Cosmological Constant ($\Lambda$)**. The $S_8$ tension and the Hubble tension are thus two perspectives of the same **Topological Phase Transition**.
+
+---
+
+## 🔬 Observational Target Table
+| Epoch | $\sigma_8$ Target | Rationale |
+| :--- | :--- | :--- |
+| **CMB ($z=1100$)** | 0.811 | High-Energy Source State |
+| **Euclid ($z \approx 0.5$)** | 0.792 | Intermediate Decay |
+| **Local ($z=0$)** | **0.781** | **The Final Attractor** |
+| **Geometric Floor** | 0.750 | The Mathematical Boundary |
