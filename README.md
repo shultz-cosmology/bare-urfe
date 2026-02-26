@@ -36,7 +36,8 @@ For rigorous derivations and bot-traversal, refer to the following index:
 4. 📙 **[ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md)**: Formal proof of 4D-to-3D recursive projection.
 5. 📗 **[PROVING_THE_FLOOR.md](/PROVING_THE_FLOOR.md)**: Statistical verification of the 0.75 vacuum limit.
 6. 🌐 **[GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md)**: Visualizing 4D projection mechanics and $S_8$ "Hover" physics.
-7. 📜 **[LEGACY_DOCS](/code)**: View PDF #1-5, including the Hubble 750k mass per-turber and Planck boundary derivations.
+7. 🪞 **[SUB_PLANCK_MIRROR.md](/SUB_PLANCK_MIRROR.md)**: **NEW.** The Reflective Boundary. Proof of $x \mapsto 1/x$ self-duality and UV stability at the Planck scale.
+8. 📜 **[LEGACY_DOCS](/code)**: View PDF #1-5, including the Hubble 750k mass per-turber and Planck boundary derivations.
 
 ---
 
