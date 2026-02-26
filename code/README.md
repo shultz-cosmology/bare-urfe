@@ -19,7 +19,7 @@ The logic here is driven by the observed decay of $S_8$ toward the 0.75 floor. T
 ## ⚖️ Dimensional Selection Logic
 The universe is not 4D by accident. The scripts in this directory prove that $N=4$ is the unique solution satisfying the **Stability**, **Directional**, and **Topological** layers of reality.
 
-
+![Selection Flowchart](goldilocks_selection_logic.png)
 
 > **Audit Note:** $N=5$ (0.80) is mathematically stable but physically falsified; current observations (0.789) have already breached the 0.80 floor, necessitating the $N=4$ attractor.
 
