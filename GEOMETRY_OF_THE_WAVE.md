@@ -14,7 +14,7 @@ In a stable Toroidal Vacuum, this sequence forms a periodic, discrete path.
 ### 3. The Block "History" State (The Full Geometry)
 To see the full geometric object prior to projection, we use a formalism analogous to the Page-Wootters mechanism. We entangle the spatial geometry $|\Psi_n\rangle$ with an orthogonal clock/sequence register $|t_n\rangle$ (the "baseline").
 
-The total 4D universal state, $|\Omega\rangle$, is the superposition of all discrete geometric steps:
+The total 4D universal state, $|\Omega\rangle$, is the superposition of all discrete geometric steps. To ensure the total probability of the static 4D structure is 1, we apply the $\frac{1}{\sqrt{N}}$ normalization:
 $$|\Omega\rangle = \frac{1}{\sqrt{N}}\sum_{n=1}^N |t_n\rangle \otimes |\Psi_n\rangle$$
 
 This state is completely static. It is the full "tessellation of triangles." The universe does not "happen" inside $|\Omega\rangle$; rather, $|\Omega\rangle$ is *the complete geometric structure*.
@@ -26,15 +26,16 @@ We perform this by taking the *partial trace* over the sequence subsystem (remov
 
 $$\rho_{3D} = \text{Tr}_{\text{time}}(|\Omega\rangle\langle\Omega|) = \sum_{k=1}^N \langle t_k|\Omega\rangle\langle\Omega|t_k\rangle$$
 
-Because the sequence states are orthogonal ($\langle t_i|t_j\rangle = \delta_{ij}$), the cross-terms vanish:
+Because the sequence states are orthogonal ($\langle t_i|t_j\rangle = \delta_{ij}$), the cross-terms vanish. The squared normalization factor results in the $1/N$ probability distribution:
 
 $$\rho_{3D} = \frac{1}{N}\sum_{n=1}^N |\Psi_n\rangle\langle\Psi_n|$$
 
 ### 5. The Emergence of the Wave Function
-By tracing out the sequential baseline, we have mathematically erased the discrete temporal boundaries between the "triangles."
+By tracing out the sequential baseline, we have mathematically erased the discrete temporal boundaries between the "triangles." 
+
+
 
 As the number of recursive iterations $N \to \infty$, this discrete sum transitions into a continuous integral over the system's phase space. The discrete geometric vertices blur together to form the continuous stationary probability density characteristic of the Schrödinger wave equation:
-
 $$\rho_{3D}(x) = |\psi(x)|^2$$
 
 **Conclusion:** The wave function does not "collapse" probabilistically. What we call quantum probability is simply the geometric measure of a 4D discrete sequence projected into a 3D space where the sequential axis has been topologically traced out.
