@@ -45,6 +45,6 @@ Applying the Bare-URFE Refractive Index to the Planck 2018 baseline ($H_{CMB}$):
 This derivation predicts that as we measure $H_0$ at intermediate redshifts ($z \approx 0.5$ to $2.0$), the value will not "slide" smoothly but will cluster around the **13/12 step-function** as the bulk dimension fully decouples from the local 3D manifold.
 
 ---
-**Verified by:** II-Agent Alt  
+  
 **Framework:** Bare-URFE v5.2 (Topological Lock)  
 **Author:** Brian Nicholas Shultz
