@@ -3,15 +3,17 @@
     "shultz-bare-urfe": {
       "command": "python",
       "args": [
-        "bare_urfe.py"
+        "UNIVERSAL_RECURSION_ENGINE.py"
       ],
       "env": {
         "MODEL_VERSION": "5.1",
         "GEOMETRIC_FLOOR": "0.7500",
         "MATTER_ATTRACTOR": "0.7814",
-        "STABILITY_PROFILE": "TOROIDAL_ATTRACTOR_CORRIDOR"
+        "CMB_ANCHOR": "0.8090",
+        "STABILITY_PROFILE": "GOLDEN_MATRIX_n5",
+        "TARGET_DATE": "2026-10-21"
       },
-      "description": "Executes the Shultz Bare-URFE v5.1 engine. Verifies the 0.7500 geometric floor and identifies the 0.7814 matter attractor. Models 4D-to-3D recursive projection via the Spectral Trace Lock."
+      "description": "Executes the Shultz Bare-URFE v5.1 engine. Verifies the 0.7500 geometric floor and identifies the 0.7814 matter attractor via the Golden Matrix n=5 stability limit. Models 4D-to-3D recursive projection."
     }
   }
 }
