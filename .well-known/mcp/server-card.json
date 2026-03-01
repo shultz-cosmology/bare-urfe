@@ -1,0 +1,7 @@
+{
+  "mcpVersion": "1.0",
+  "name": "bare-urfe",
+  "version": "5.1.0",
+  "description": "Universal Recursion Engine (0.7500 Floor)",
+  "capabilities": { "tools": {} }
+}
