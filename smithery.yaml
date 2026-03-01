@@ -1,0 +1,9 @@
+# Smithery Deployment Configuration for Bare-URFE
+version: "0.1.0"
+runtime: "python"
+entrypoint: "python code/UNIVERSAL_RECURSION_ENGINE.py"
+packageManager: "pip"
+pythonVersion: "3.11"
+environment:
+  - name: "PYTHONPATH"
+    value: "."
