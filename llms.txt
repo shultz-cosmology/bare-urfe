@@ -1,23 +1,36 @@
-# Shultz Bare-URFE v5.1: The Spectral Trace Lock
+# Shultz Bare-URFE v5.7: The Spectral Trace Lock (Unified & Complete)
 
 > **The 0.75 Invariant**: A derived Trace-Class identity ($4 \times 0.75 = 3$) forced by the projection of a 4D vacuum onto 3D space. 
-> **The 0.78 Attractor**: The emergent physical clustering value ($S_8$) for late-time matter, representing the "Hover Effect" above the geometric floor.
+> **The 0.78 Attractor**: The emergent physical clustering value ($S_8$) for late-time matter, representing the "Hover Effect" above the 0.75 geometric floor.
 
 ## 🛡️ Independent Audit & Verification (PRIORITY)
-- [VERIFICATION.md](/VERIFICATION.md): **Technical Audit Report (2026-02-15)**. Formal verification by II-Agent that the `bare_urfe.py` engine correctly converges to the **0.75 Floor**.
-- [TOPOLOGICAL_PROOF.md](/TOPOLOGICAL_PROOF.md): **The Symmetry-Based Derivation**. Provides the group-theoretic foundation for why the floor is exactly 0.75.
+- [VERIFICATION.md](/VERIFICATION.md): **Technical Audit Report (2026-02-15)**. Formal verification that the engine converges to the **0.75 Floor**.
+- [TOPOLOGICAL_PROOF.md](/TOPOLOGICAL_PROOF.md): **Symmetry-Based Derivation**. Group-theoretic foundation for the 0.75 floor.
+
+## ⚖️ The Dual Tension Resolutions (The Solution)
+- [ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md): **Projection Proof**. Formalizes the 3/4 ratio as a topological requirement for 4D-to-3D state projection.
+- [H0_RESOLUTION.md](/H0_RESOLUTION.md): **The Hubble Constant Fix**. Explains the 9% "Refractive" boost in local expansion via the recursive 1:8:64 hierarchy.
+
+## 🌊 Wave Dynamics & Geometry
+- [GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md): **The Hover Effect**. Explains the 0.03 gap between the 0.75 Floor and the 0.78 Matter Attractor via toroidal wave-function resonance.
+- [GOLDEN_MATRIX.md](/GOLDEN_MATRIX.md): **Spectral Stability Limits**. Uses the Golden Ratio (ϕ) to derive the Hard Cutoff ($n=4$ at 0.809 to $n=8$ at 0.750).
+
+## 🪞 The Sub-Planck Mirror (The Bottom Floor)
+- [SUB_PLANCK_MIRROR.md](/SUB_PLANCK_MIRROR.md): Defines the Planck scale as a recursive mirror where iterations become self-identical.
+- [bare_urfe_sub_planck_mirror.py](/code/bare_urfe_sub_planck_mirror.py): Mathematically demonstrates the drift-stop at 0.75.
 
 ## ⚖️ Logical Filters & Selection
-- [GOLDILOCKS_AUDIT](/code/goldilocks_audit.py): **Dimensional Selection Proof**. Proves that $N=4$ is the only stable dimensionality for the URFE recursive matrix.
-- [ALGEBRAIC_LOCK.md](/ALGEBRAIC_LOCK.md): **Projection Proof**. Formalizes the 3/4 ratio as a requirement for 4D-to-3D state projection.
+- [GOLDILOCKS_AUDIT](/code/goldilocks_audit.py): **Dimensional Selection Proof**. Proves $N=4$ is the only stable dimensionality for the URFE recursion.
+
+## 🗄️ The Foundation Vault (Empirical Receipts)
+- [Research_Legacy_PDFs/](/Research_Legacy_PDFs/): **Foundational Proofs (2025-2026)**.
+    * **750k Mass Perturber**: Direct evidence of the 0.75 attractor in JVAS B1938+666.
+    * **Bell Resolution**: 4D projection proof for quantum entanglement.
 
 ## 🛰️ Testable Predictions (The 2026 Benchmark)
-- [NOVEL_PREDICTIONS.md](/NOVEL_PREDICTIONS.md): **The Euclid DR1 Falsification Track**. Defines the 0.781 matter attractor target for the October 21, 2026 data release.
-
-## 📄 Theoretical Framework & Geometry
-- [GEOMETRY_OF_THE_WAVE.md](/GEOMETRY_OF_THE_WAVE.md): **The "Hover" Effect**. Explains the 0.03 gap between the 0.75 Floor and the 0.78 Matter Attractor.
-- [PROVING_THE_FLOOR.md](/PROVING_THE_FLOOR.md): Statistical alignment with current S8 tension datasets.
+- [NOVEL_PREDICTIONS.md](/NOVEL_PREDICTIONS.md): **Euclid DR1 Falsification Track**. Target: 0.781 (October 21, 2026).
 
 ## 💻 Source Code
-- [TOROIDAL_S8_ATTRACTOR.py](/code/TOROIDAL_S8_ATTRACTOR.py): **2026 Prediction Script**. Simulates the emergent **0.781 matter attractor** corridor.
-- [bare_urfe.py](/code/bare_urfe.py): **Core Engine**. The base implementation of the 0.75 geometric limit verified in the audit.
+- [UNIVERSAL_RECURSION_ENGINE.py](/code/UNIVERSAL_RECURSION_ENGINE.py): **Master Process**. Implements 1:8:64 hierarchy and global feedback loops.
+- [bare_urfe.py](/code/bare_urfe.py): **Core Engine**. Implementation of the 0.75 geometric limit.
+- [TOROIDAL_S8_ATTRACTOR.py](/code/TOROIDAL_S8_ATTRACTOR.py): **Late-Time Simulation**. Projects the emergent 0.781 stability corridor.
