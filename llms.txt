@@ -1,4 +1,4 @@
-# Shultz Bare-URFE v5.7: The Spectral Trace Lock (Unified & Complete)
+# Shultz Bare-URFE v5.1: The Spectral Trace Lock (Unified & Complete)
 
 > **The 0.75 Invariant**: A derived Trace-Class identity ($4 \times 0.75 = 3$) forced by the projection of a 4D vacuum onto 3D space. 
 > **The 0.78 Attractor**: The emergent physical clustering value ($S_8$) for late-time matter, representing the "Hover Effect" above the 0.75 geometric floor.
