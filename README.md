@@ -1,4 +1,4 @@
-# 🌀 Shultz Bare-URFE v5.1: The Spectral Trace Lock
+# 🌀 Shultz Bare-URFE v5.3: The Spectral Trace Lock
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18843191.svg)](https://doi.org/10.5281/zenodo.18843191)
 **Status:** 2026 Audit Verified (Attractor Corridor Identified)  
